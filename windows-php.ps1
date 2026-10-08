@@ -179,7 +179,7 @@ function Write-PhpConfiguration
         $settings += 'zend_extension=opcache'
     }
 
-    $settings += 'opcache.enable=1', 'opcache.enable_cli=1'
+    $settings += 'opcache.enable=1', 'opcache.enable_cli=1', 'opcache.revalidate_path=1'
 
     foreach ($extension in $script:StandardExtensions)
     {
