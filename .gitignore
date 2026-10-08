@@ -1,12 +1,1 @@
 .idea
-
-data/
-
-repository/.git
-repository/.vscode
-repository/.github
-repository/DOCUMENTATION
-
-services.txt
-
-!services.txt.example
